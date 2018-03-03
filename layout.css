@@ -1,0 +1,51 @@
+ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: mediumaquamarine;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: cornflowerblue;
+}
+
+    
+#title {
+    text-align: center;
+    color: deepskyblue;
+    font-family: myRobo;
+}
+body {
+    text-align: center;
+    font-family: myRobo;
+    background-color: azure;
+    background-image: url("cute.gif");
+}
+
+
+
+
+
+@font-face {
+   font-family: myRobo;
+   src: url(Roboto-Light.ttf);
+}
+
+#font {
+   font-family: myRobo;
+}
+//This is the CSS code used for several of the main pages, not so much for blog posts or wikipages. http://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text
